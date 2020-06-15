@@ -4,7 +4,7 @@
 
 Global target analysis is commonly used when attempting to model / fit / deconvolve transient absorption (TA) data, but can really be used in any case where the data is represented by a 2D matrix defined by two experimental dimensions. In the case case of TA these dimensions are wavelength and time.
 
-This script is intended as a demonstrations of basic approaches to the global target analysis. It should not be used as-is, but instead studies and understood. The purpose of this script is only to provide a path to learning the global target analysis method.
+This script is intended as a demonstrations of basic approaches to the global target analysis. It should not be used as-is, but instead studied and understood. The purpose of this script is only to provide a path to learning the global target analysis methodology.
 
 If a more automated approach is required, there are some excellent toolboxes for global analysis out there (see below). A thorough understanding of the methodology is, however, strongly recommended before using any automated approaches / toolboxes.
 

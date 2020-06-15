@@ -63,20 +63,20 @@ imagesc(t,wl,D);
 xlabel('time'); ylabel('wavelength');
 grid on; box on; axis tight square;
 title('Data');
+caxis([-6 4]);
 
 s(2) = subplot(1,3,2);
 imagesc(t,wl,Dfit);
 xlabel('time'); ylabel('wavelength');
 grid on; box on; axis tight square;
 title('Fit');
+caxis([-6 4]);
 
 subplot(1,3,3);
 imagesc(t,wl,D-Dfit);
 xlabel('time'); ylabel('wavelength');
 grid on; box on; axis tight square;
 title('Residuals');
-
-s(2).ZLim = s(1).ZLim;
 
 %% Start with the spectral model and get the kinetics
 

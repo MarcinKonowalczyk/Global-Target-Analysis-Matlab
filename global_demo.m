@@ -1,4 +1,12 @@
-% Demo of global fitting of TA
+% This is a simple demo of global target analysis of transient absorption
+% data.
+%
+% Plese see the README.md in the main repositiory for more informaiton on
+% global target analysis.
+% https://github.com/MarcinKonowalczyk/Global-Target-Analysis-Matlab
+%
+% Written by Dr. Marcin Konowalczyk
+% Timmel Group @ Oxford University
 
 close all; clear; clc;
 

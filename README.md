@@ -8,10 +8,13 @@ This script is intended as a demonstrations of basic approaches to the global ta
 
 If a more automated approach is required, there are some excellent toolboxes for global analysis out there (see below). A thorough understanding of the methodology is, however, strongly recommended before using any automated approaches / toolboxes.
 
+
+<center><img src="./figures/display_image.png" width="50%"></center>
+
 ## Things to watch out for
 
 - Just like with any modelling, overfitting is a problem. _'With four parameters I can fit an elephant, and with five I can make it wiggle its trunk'_ - Jonny von Neumann (See [Drawing an elephant with four complex parameters](https://publications.mpi-cbg.de/Mayer_2010_4314.pdf), Mayer et al. _American Journal of Physics_ 78, 648 (2010), DOI: [10.1119/1.3254017](https://www.doi.org/10.1119/1.3254017))
-- Local minima are very much of a problem in fitting / regression in general. Global target analysis is particularity susceptible to this problem since it deals with multidimensional **and** non-linear models. The code here uses a basic simplex solver (`fminseach`) but, in general, one ought to consider a way of ensuring the solution is a global (putative) minimum. This can, for example, be achieved by using a solver more adapted to finding global minima (e.g. `patternsearch`) or using an exploratory algorithm (e.g. `ga`) to understand better the behaviour of the particular fitting problem.
+- Local minima are very much of a problem in fitting / regression in general. Global target analysis is particularity susceptible to this problem since it deals with multidimensional **and** non-linear models. The code here uses a basic simplex solver (`fminseach`) but, in general, one ought to consider a way of ensuring the solution is a global (putative) minimum. This can, for example, be achieved by using a solver more adapted to finding global minima (e.g. `patternsearch`) or using an exploratory algorithm (e.g. `ga`) to understand better the behaviour of the particular fitting problem. Note, however, that more advanced solvers require the ([Global](https://uk.mathworks.com/help/gads/index.html)) [Optimization Toolbox](https://uk.mathworks.com/help/optim/index.html).
 - Global analysis as shown here assumes that parameters of the model in one dimension are invariant in the other. For example, the species-associated spectra are invariant in time (bar the scaling by the fraction of species present)
 
 ## References

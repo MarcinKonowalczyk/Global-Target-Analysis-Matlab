@@ -8,8 +8,7 @@ This script is intended as a demonstrations of basic approaches to the global ta
 
 If a more automated approach is required, there are some excellent toolboxes for global analysis out there (see below). A thorough understanding of the methodology is, however, strongly recommended before using any automated approaches / toolboxes.
 
-
-<center><img src="./figures/display_image.png" width="50%"></center>
+<p align="center"><img src="./figures/display_image.png" width="50%"></p>
 
 ## Things to watch out for
 
